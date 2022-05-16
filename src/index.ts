@@ -15,3 +15,4 @@ app.use(express.json());
 app.use("/", routes)
 
 export const api = functions.https.onRequest(app);
+app.use(express.static(__dirname));

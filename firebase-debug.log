@@ -1,32 +1,36 @@
-[debug] [2022-05-13T00:21:56.721Z] ----------------------------------------------------------------------
-[debug] [2022-05-13T00:21:56.723Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\utrec\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
-[debug] [2022-05-13T00:21:56.724Z] CLI Version:   10.8.0
-[debug] [2022-05-13T00:21:56.724Z] Platform:      win32
-[debug] [2022-05-13T00:21:56.724Z] Node Version:  v16.13.0
-[debug] [2022-05-13T00:21:56.725Z] Time:          Thu May 12 2022 20:21:56 GMT-0400 (Eastern Daylight Time)
-[debug] [2022-05-13T00:21:56.726Z] ----------------------------------------------------------------------
+[debug] [2022-05-15T19:29:41.372Z] ----------------------------------------------------------------------
+[debug] [2022-05-15T19:29:41.374Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\utrec\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2022-05-15T19:29:41.375Z] CLI Version:   10.8.0
+[debug] [2022-05-15T19:29:41.375Z] Platform:      win32
+[debug] [2022-05-15T19:29:41.375Z] Node Version:  v16.13.0
+[debug] [2022-05-15T19:29:41.376Z] Time:          Sun May 15 2022 15:29:41 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-05-15T19:29:41.376Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-05-13T00:21:56.790Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-05-13T00:21:56.790Z] > authorizing via signed-in user (utrechtc@gmail.com)
+[debug] [2022-05-15T19:29:41.452Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-15T19:29:41.453Z] > authorizing via signed-in user (utrechtc@gmail.com)
 [info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
-[debug] [2022-05-13T00:21:56.811Z] [hub] writing locator at C:\Users\utrec\AppData\Local\Temp\hub-fir-lab-1-81be8.json
+[debug] [2022-05-15T19:29:41.472Z] [hub] writing locator at C:\Users\utrec\AppData\Local\Temp\hub-fir-lab-1-81be8.json
 [warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
 [info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
-[debug] [2022-05-13T00:21:56.833Z] defaultcredentials: writing to file C:\Users\utrec\AppData\Roaming\firebase\utrechtc_gmail_com_application_default_credentials.json
-[debug] [2022-05-13T00:21:56.836Z] Setting GAC to C:\Users\utrec\AppData\Roaming\firebase\utrechtc_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\utrec\\AppData\\Roaming\\firebase\\utrechtc_gmail_com_application_default_credentials.json"}}
-[debug] [2022-05-13T00:21:56.841Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig [none]
-[debug] [2022-05-13T00:21:57.053Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig 200
-[debug] [2022-05-13T00:21:57.053Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig {"projectId":"fir-lab-1-81be8","storageBucket":"fir-lab-1-81be8.appspot.com"}
-[debug] [2022-05-13T00:21:57.070Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2022-05-13T00:21:57.070Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2022-05-13T00:21:57.070Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\utrec\\.cache\\firebase\\emulators\\ui-v1.6.6\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\utrec\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.6\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[debug] [2022-05-15T19:29:41.490Z] defaultcredentials: writing to file C:\Users\utrec\AppData\Roaming\firebase\utrechtc_gmail_com_application_default_credentials.json
+[debug] [2022-05-15T19:29:41.492Z] Setting GAC to C:\Users\utrec\AppData\Roaming\firebase\utrechtc_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\utrec\\AppData\\Roaming\\firebase\\utrechtc_gmail_com_application_default_credentials.json"}}
+[debug] [2022-05-15T19:29:41.494Z] > refreshing access token with scopes: []
+[debug] [2022-05-15T19:29:41.495Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-15T19:29:41.661Z] <<< HTTP RESPONSE 200 {"date":"Sun, 15 May 2022 19:29:46 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-15T19:29:41.671Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig [none]
+[debug] [2022-05-15T19:29:41.862Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig 200
+[debug] [2022-05-15T19:29:41.862Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig {"projectId":"fir-lab-1-81be8","storageBucket":"fir-lab-1-81be8.appspot.com"}
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4002 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4002 instead."}}
+[debug] [2022-05-15T19:29:41.895Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-05-15T19:29:41.896Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-05-15T19:29:41.896Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\utrec\\.cache\\firebase\\emulators\\ui-v1.6.6\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\utrec\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.6\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
 [info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2022-05-13T00:21:57.202Z] Web / API server started at localhost:4000
- {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[debug] [2022-05-15T19:29:42.048Z] Web / API server started at localhost:4002
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4002\n"}}
 [info] i  functions: Watching "C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\" for Cloud Functions..."}}
-[debug] [2022-05-13T00:21:57.353Z] Validating nodejs source
-[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
-[debug] [2022-05-13T00:22:00.340Z] > [functions] package.json contents: {
+[debug] [2022-05-15T19:29:42.180Z] Validating nodejs source
+[debug] [2022-05-15T19:29:45.056Z] > [functions] package.json contents: {
   "name": "functions",
   "scripts": {
     "build": "tsc",
@@ -50,7 +54,7 @@
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "firebase-admin": "^10.0.2",
-    "firebase-functions": "^3.18.0",
+    "firebase-functions": "^3.21.1",
     "mongodb": "^4.6.0"
   },
   "devDependencies": {
@@ -69,38 +73,37 @@
   "license": "ISC",
   "description": ""
 }
-[debug] [2022-05-13T00:22:00.341Z] Building nodejs source
-[debug] [2022-05-13T00:22:00.341Z] Analyzing nodejs backend spec
+[debug] [2022-05-15T19:29:45.056Z] Building nodejs source
+[debug] [2022-05-15T19:29:45.056Z] Analyzing nodejs backend spec
 [info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/fir-lab-1-81be8/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/fir-lab-1-81be8/us-central1/api)."}}
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
 │ ✔  All emulators ready! It is now safe to connect your app. │
-│ i  View Emulator UI at http://localhost:4000                │
+│ i  View Emulator UI at http://localhost:4002                │
 └─────────────────────────────────────────────────────────────┘
 
 ┌───────────┬────────────────┬─────────────────────────────────┐
 │ Emulator  │ Host:Port      │ View in Emulator UI             │
 ├───────────┼────────────────┼─────────────────────────────────┤
-│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+│ Functions │ localhost:5001 │ http://localhost:4002/functions │
 └───────────┴────────────────┴─────────────────────────────────┘
   Emulator Hub running at localhost:4400
   Other reserved ports: 4500
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[debug] [2022-05-13T00:22:00.961Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\db.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\db.js.map changed, reloading triggers"}}
-[debug] [2022-05-13T00:22:00.965Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\db.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\db.js changed, reloading triggers"}}
-[debug] [2022-05-13T00:22:00.968Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\models\ShoutOutInterface.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\models\\ShoutOutInterface.js.map changed, reloading triggers"}}
-[debug] [2022-05-13T00:22:00.969Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\models\ShoutOutInterface.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\models\\ShoutOutInterface.js changed, reloading triggers"}}
-[debug] [2022-05-13T00:22:00.971Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\routes\routes.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\routes\\routes.js.map changed, reloading triggers"}}
-[debug] [2022-05-13T00:22:00.974Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\routes\routes.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\routes\\routes.js changed, reloading triggers"}}
-[debug] [2022-05-13T00:22:00.978Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js.map changed, reloading triggers"}}
-[debug] [2022-05-13T00:22:00.978Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js changed, reloading triggers"}}
-[debug] [2022-05-13T00:22:00.980Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js.map changed, reloading triggers"}}
-[debug] [2022-05-13T00:22:00.985Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js changed, reloading triggers"}}
-[debug] [2022-05-13T00:22:01.998Z] Validating nodejs source
-[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
-[debug] [2022-05-13T00:22:04.238Z] > [functions] package.json contents: {
+[debug] [2022-05-15T19:29:45.859Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\db.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\db.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:29:45.864Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\db.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\db.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:29:45.866Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\models\ShoutOutInterface.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\models\\ShoutOutInterface.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:29:45.869Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\models\ShoutOutInterface.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\models\\ShoutOutInterface.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:29:45.876Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\routes\routes.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\routes\\routes.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:29:45.876Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\routes\routes.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\routes\\routes.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:29:45.878Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:29:45.883Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:29:45.886Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:29:45.892Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:29:46.898Z] Validating nodejs source
+[debug] [2022-05-15T19:29:49.312Z] > [functions] package.json contents: {
   "name": "functions",
   "scripts": {
     "build": "tsc",
@@ -124,7 +127,7 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "firebase-admin": "^10.0.2",
-    "firebase-functions": "^3.18.0",
+    "firebase-functions": "^3.21.1",
     "mongodb": "^4.6.0"
   },
   "devDependencies": {
@@ -143,13 +146,13 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
   "license": "ISC",
   "description": ""
 }
-[debug] [2022-05-13T00:22:04.239Z] Building nodejs source
-[debug] [2022-05-13T00:22:04.239Z] Analyzing nodejs backend spec
-[debug] [2022-05-13T00:25:29.592Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js.map changed, reloading triggers"}}
-[debug] [2022-05-13T00:25:29.598Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js changed, reloading triggers"}}
-[debug] [2022-05-13T00:25:30.613Z] Validating nodejs source
-[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
-[debug] [2022-05-13T00:25:32.843Z] > [functions] package.json contents: {
+[debug] [2022-05-15T19:29:49.313Z] Building nodejs source
+[debug] [2022-05-15T19:29:49.313Z] Analyzing nodejs backend spec
+[debug] [2022-05-15T19:37:03.353Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\src\index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\src\\index.ts changed, reloading triggers"}}
+[debug] [2022-05-15T19:37:04.028Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:37:04.033Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:37:05.048Z] Validating nodejs source
+[debug] [2022-05-15T19:37:08.516Z] > [functions] package.json contents: {
   "name": "functions",
   "scripts": {
     "build": "tsc",
@@ -173,7 +176,7 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "firebase-admin": "^10.0.2",
-    "firebase-functions": "^3.18.0",
+    "firebase-functions": "^3.21.1",
     "mongodb": "^4.6.0"
   },
   "devDependencies": {
@@ -192,12 +195,42 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
   "license": "ISC",
   "description": ""
 }
-[debug] [2022-05-13T00:25:32.843Z] Building nodejs source
-[debug] [2022-05-13T00:25:32.843Z] Analyzing nodejs backend spec
-[debug] [2022-05-13T01:13:47.686Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\src\routes\routes.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\src\\routes\\routes.ts changed, reloading triggers"}}
-[debug] [2022-05-13T01:13:48.697Z] Validating nodejs source
-[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
-[debug] [2022-05-13T01:13:51.106Z] > [functions] package.json contents: {
+[debug] [2022-05-15T19:37:08.517Z] Building nodejs source
+[debug] [2022-05-15T19:37:08.517Z] Analyzing nodejs backend spec
+[debug] [2022-05-15T19:55:19.731Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\src\index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\src\\index.ts changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:20.307Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:20.311Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:21.324Z] Validating nodejs source
+[debug] [2022-05-15T19:55:36.710Z] ----------------------------------------------------------------------
+[debug] [2022-05-15T19:55:36.712Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\utrec\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2022-05-15T19:55:36.713Z] CLI Version:   10.8.0
+[debug] [2022-05-15T19:55:36.713Z] Platform:      win32
+[debug] [2022-05-15T19:55:36.714Z] Node Version:  v16.13.0
+[debug] [2022-05-15T19:55:36.715Z] Time:          Sun May 15 2022 15:55:36 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-05-15T19:55:36.715Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-15T19:55:36.784Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-15T19:55:36.785Z] > authorizing via signed-in user (utrechtc@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project fir-lab-1-81be8. This may result in unexpected behavior. 
+[debug] [2022-05-15T19:55:36.806Z] [hub] writing locator at C:\Users\utrec\AppData\Local\Temp\hub-fir-lab-1-81be8.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-05-15T19:55:36.826Z] defaultcredentials: writing to file C:\Users\utrec\AppData\Roaming\firebase\utrechtc_gmail_com_application_default_credentials.json
+[debug] [2022-05-15T19:55:36.827Z] Setting GAC to C:\Users\utrec\AppData\Roaming\firebase\utrechtc_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\utrec\\AppData\\Roaming\\firebase\\utrechtc_gmail_com_application_default_credentials.json"}}
+[debug] [2022-05-15T19:55:36.831Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig [none]
+[debug] [2022-05-15T19:55:37.060Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig 200
+[debug] [2022-05-15T19:55:37.060Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig {"projectId":"fir-lab-1-81be8","storageBucket":"fir-lab-1-81be8.appspot.com"}
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4002 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4002 instead."}}
+[debug] [2022-05-15T19:55:37.104Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-05-15T19:55:37.104Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-05-15T19:55:37.104Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\utrec\\.cache\\firebase\\emulators\\ui-v1.6.6\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\utrec\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.6\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-05-15T19:55:37.237Z] Web / API server started at localhost:4002
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4002\n"}}
+[info] i  functions: Watching "C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\" for Cloud Functions..."}}
+[debug] [2022-05-15T19:55:37.388Z] Validating nodejs source
+[debug] [2022-05-15T19:55:40.272Z] > [functions] package.json contents: {
   "name": "functions",
   "scripts": {
     "build": "tsc",
@@ -221,7 +254,7 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "firebase-admin": "^10.0.2",
-    "firebase-functions": "^3.18.0",
+    "firebase-functions": "^3.21.1",
     "mongodb": "^4.6.0"
   },
   "devDependencies": {
@@ -240,13 +273,37 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
   "license": "ISC",
   "description": ""
 }
-[debug] [2022-05-13T01:13:51.106Z] Building nodejs source
-[debug] [2022-05-13T01:13:51.106Z] Analyzing nodejs backend spec
-[debug] [2022-05-13T01:57:57.122Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js.map changed, reloading triggers"}}
-[debug] [2022-05-13T01:57:57.142Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js changed, reloading triggers"}}
-[debug] [2022-05-13T01:57:58.163Z] Validating nodejs source
-[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
-[debug] [2022-05-13T01:58:00.553Z] > [functions] package.json contents: {
+[debug] [2022-05-15T19:55:40.272Z] Building nodejs source
+[debug] [2022-05-15T19:55:40.272Z] Analyzing nodejs backend spec
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/fir-lab-1-81be8/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/fir-lab-1-81be8/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4002                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4002/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-05-15T19:55:41.086Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\db.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\db.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:41.091Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\db.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\db.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:41.092Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\models\ShoutOutInterface.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\models\\ShoutOutInterface.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:41.095Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\models\ShoutOutInterface.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\models\\ShoutOutInterface.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:41.099Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\routes\routes.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\routes\\routes.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:41.103Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\routes\routes.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\routes\\routes.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:41.104Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:41.109Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:41.111Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:41.115Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:55:42.121Z] Validating nodejs source
+[debug] [2022-05-15T19:55:45.034Z] > [functions] package.json contents: {
   "name": "functions",
   "scripts": {
     "build": "tsc",
@@ -270,7 +327,7 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "firebase-admin": "^10.0.2",
-    "firebase-functions": "^3.18.0",
+    "firebase-functions": "^3.21.1",
     "mongodb": "^4.6.0"
   },
   "devDependencies": {
@@ -289,7 +346,586 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
   "license": "ISC",
   "description": ""
 }
-[debug] [2022-05-13T01:58:00.553Z] Building nodejs source
-[debug] [2022-05-13T01:58:00.553Z] Analyzing nodejs backend spec
-[error] 
-[error] Error: There was an unknown problem while trying to parse function triggers.
+[debug] [2022-05-15T19:55:45.034Z] Building nodejs source
+[debug] [2022-05-15T19:55:45.034Z] Analyzing nodejs backend spec
+[debug] [2022-05-15T19:56:16.531Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\src\index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\src\\index.ts changed, reloading triggers"}}
+[debug] [2022-05-15T19:56:17.067Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T19:56:17.070Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js changed, reloading triggers"}}
+[debug] [2022-05-15T19:56:18.082Z] Validating nodejs source
+[debug] [2022-05-15T19:56:20.570Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "serve:dev": "npm run build && concurrently \"tsc --watch\" \"firebase emulators:start --only functions\"",
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon src/index.ts",
+    "test": "jest",
+    "test:dev": "jest --watchAll --verbose"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.21.1",
+    "mongodb": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "concurrently": "^7.1.0",
+    "firebase-functions-test": "^0.2.0",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+[debug] [2022-05-15T19:56:20.571Z] Building nodejs source
+[debug] [2022-05-15T19:56:20.571Z] Analyzing nodejs backend spec
+[debug] [2022-05-15T20:05:50.304Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-15T20:05:50.305Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-15T20:05:50.306Z] Accepted request GET /fir-lab-1-81be8/us-central1/api/shoutouts --> us-central1-api
+[debug] [2022-05-15T20:05:50.320Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-15T20:05:50.320Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-15T20:05:50.320Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-15T20:05:50.321Z] [worker-us-central1-api-7ec3b8b7-fc5c-4831-ba4a-a5a2a39dc368]: Assigning socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\7068 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-7ec3b8b7-fc5c-4831-ba4a-a5a2a39dc368]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\7068"}}
+[debug] [2022-05-15T20:05:50.321Z] [worker-us-central1-api-7ec3b8b7-fc5c-4831-ba4a-a5a2a39dc368]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-7ec3b8b7-fc5c-4831-ba4a-a5a2a39dc368]: BUSY"}}
+[debug] [2022-05-15T20:05:52.393Z] [runtime-status] [7068] Functions runtime initialized. {"cwd":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions","node_version":"16.13.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\",\"node_version\":\"16.13.0\"}"}}
+[debug] [2022-05-15T20:05:52.395Z] [runtime-status] [7068] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Disabled runtime features: undefined"}}
+[debug] [2022-05-15T20:05:52.398Z] [runtime-status] [7068] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:52.399Z] [runtime-status] [7068] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:52.399Z] [runtime-status] [7068] Found local functions config: C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions/.runtimeconfig.json {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Found local functions config: C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions/.runtimeconfig.json"}}
+[debug] [2022-05-15T20:05:52.400Z] [runtime-status] [7068] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-15T20:05:52.401Z] [runtime-status] [7068] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:52.451Z] [runtime-status] [7068] Checked functions.config() {"config":{"mongodb":{"uri":"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority"}}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Checked functions.config() {\"config\":{\"mongodb\":{\"uri\":\"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority\"}}}"}}
+[debug] [2022-05-15T20:05:52.451Z] [runtime-status] [7068] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T20:05:52.452Z] [runtime-status] [7068] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:52.454Z] [runtime-status] [7068] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:52.455Z] [runtime-status] [7068] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:52.455Z] [runtime-status] [7068] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T20:05:52.719Z] [runtime-status] [7068] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-15T20:05:52.720Z] [runtime-status] [7068] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Running api in signature http"}}
+[debug] [2022-05-15T20:05:52.723Z] [runtime-status] [7068] Attempting to listen to socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\7068 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\7068"}}
+[info] >  Listening on port: 3000 {"user":"Listening on port: 3000","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Listening on port: 3000"}}
+[debug] [2022-05-15T20:05:52.725Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-15T20:05:52.726Z] [functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts"}}
+[debug] [2022-05-15T20:05:52.732Z] [runtime-status] [7068] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Ephemeral server handling GET request"}}
+[debug] [2022-05-15T20:05:52.745Z] [runtime-status] [7068] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [7068] Ephemeral server survived."}}
+[debug] [2022-05-15T20:05:53.592Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2022-05-15T20:05:53.593Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-05-15T20:05:53.593Z] Accepted request GET /fir-lab-1-81be8/us-central1/api/shoutouts --> us-central1-api
+[debug] [2022-05-15T20:05:53.612Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-15T20:05:53.613Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2022-05-15T20:05:53.613Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-15T20:05:53.614Z] [worker-us-central1-api-baf66ce7-08bc-4a89-9a2a-3b3aa6db347f]: Assigning socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\972 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-baf66ce7-08bc-4a89-9a2a-3b3aa6db347f]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\972"}}
+[debug] [2022-05-15T20:05:53.615Z] [worker-us-central1-api-baf66ce7-08bc-4a89-9a2a-3b3aa6db347f]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-baf66ce7-08bc-4a89-9a2a-3b3aa6db347f]: BUSY"}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-15T20:05:53.617Z] [worker-us-central1-api-7ec3b8b7-fc5c-4831-ba4a-a5a2a39dc368]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-7ec3b8b7-fc5c-4831-ba4a-a5a2a39dc368]: IDLE"}}
+[debug] [2022-05-15T20:05:53.618Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-15T20:05:55.486Z] [runtime-status] [972] Functions runtime initialized. {"cwd":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions","node_version":"16.13.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\",\"node_version\":\"16.13.0\"}"}}
+[debug] [2022-05-15T20:05:55.487Z] [runtime-status] [972] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Disabled runtime features: undefined"}}
+[debug] [2022-05-15T20:05:55.490Z] [runtime-status] [972] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:55.492Z] [runtime-status] [972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:55.492Z] [runtime-status] [972] Found local functions config: C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions/.runtimeconfig.json {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Found local functions config: C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions/.runtimeconfig.json"}}
+[debug] [2022-05-15T20:05:55.493Z] [runtime-status] [972] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-15T20:05:55.495Z] [runtime-status] [972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:55.570Z] [runtime-status] [972] Checked functions.config() {"config":{"mongodb":{"uri":"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority"}}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Checked functions.config() {\"config\":{\"mongodb\":{\"uri\":\"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority\"}}}"}}
+[debug] [2022-05-15T20:05:55.570Z] [runtime-status] [972] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T20:05:55.571Z] [runtime-status] [972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:55.573Z] [runtime-status] [972] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:55.574Z] [runtime-status] [972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:05:55.574Z] [runtime-status] [972] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T20:05:55.914Z] [runtime-status] [972] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-15T20:05:55.915Z] [runtime-status] [972] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Running api in signature http"}}
+[debug] [2022-05-15T20:05:55.919Z] [runtime-status] [972] Attempting to listen to socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\972 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [972] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\972"}}
+[info] >  node:events:368 {"user":"node:events:368\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m node:events:368\r"}}
+[info] >        throw er; // Unhandled 'error' event {"user":"      throw er; // Unhandled 'error' event\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       throw er; // Unhandled 'error' event\r"}}
+[info] >        ^ {"user":"      ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: listen EADDRINUSE: address already in use :::3000 {"user":"Error: listen EADDRINUSE: address already in use :::3000\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Error: listen EADDRINUSE: address already in use :::3000\r"}}
+[info] >      at Server.setupListenHandle [as _listen2] (node:net:1334:16) {"user":"    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Server.setupListenHandle [as _listen2] (node:net:1334:16)\r"}}
+[info] >      at listenInCluster (node:net:1382:12) {"user":"    at listenInCluster (node:net:1382:12)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at listenInCluster (node:net:1382:12)\r"}}
+[info] >      at Server.listen (node:net:1469:7) {"user":"    at Server.listen (node:net:1469:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Server.listen (node:net:1469:7)\r"}}
+[info] >      at Function.listen (C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\node_modules\express\lib\application.js:635:24) {"user":"    at Function.listen (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\express\\lib\\application.js:635:24)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.listen (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\express\\lib\\application.js:635:24)\r"}}
+[info] >      at Object.<anonymous> (C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\index.js:45:5) {"user":"    at Object.<anonymous> (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\index.js:45:5)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Object.<anonymous> (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\index.js:45:5)\r"}}
+[info] >      at Module._compile (node:internal/modules/cjs/loader:1101:14) {"user":"    at Module._compile (node:internal/modules/cjs/loader:1101:14)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Module._compile (node:internal/modules/cjs/loader:1101:14)\r"}}
+[info] >      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10) {"user":"    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\r"}}
+[info] >      at Module.load (node:internal/modules/cjs/loader:981:32) {"user":"    at Module.load (node:internal/modules/cjs/loader:981:32)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Module.load (node:internal/modules/cjs/loader:981:32)\r"}}
+[info] >      at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"user":"    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.Module._load (node:internal/modules/cjs/loader:822:12)\r"}}
+[info] >      at Module.require (node:internal/modules/cjs/loader:1005:19) {"user":"    at Module.require (node:internal/modules/cjs/loader:1005:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Module.require (node:internal/modules/cjs/loader:1005:19)\r"}}
+[info] >  Emitted 'error' event on Server instance at: {"user":"Emitted 'error' event on Server instance at:\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Emitted 'error' event on Server instance at:\r"}}
+[info] >      at emitErrorNT (node:net:1361:8) {"user":"    at emitErrorNT (node:net:1361:8)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at emitErrorNT (node:net:1361:8)\r"}}
+[info] >      at processTicksAndRejections (node:internal/process/task_queues:83:21) { {"user":"    at processTicksAndRejections (node:internal/process/task_queues:83:21) {\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processTicksAndRejections (node:internal/process/task_queues:83:21) {\r"}}
+[info] >    code: 'EADDRINUSE', {"user":"  code: 'EADDRINUSE',\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   code: 'EADDRINUSE',\r"}}
+[info] >    errno: -4091, {"user":"  errno: -4091,\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   errno: -4091,\r"}}
+[info] >    syscall: 'listen', {"user":"  syscall: 'listen',\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   syscall: 'listen',\r"}}
+[info] >    address: '::', {"user":"  address: '::',\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   address: '::',\r"}}
+[info] >    port: 3000 {"user":"  port: 3000\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   port: 3000\r"}}
+[info] >  } {"user":"}\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m }\r"}}
+[debug] [2022-05-15T20:05:55.943Z] [worker-us-central1-api-baf66ce7-08bc-4a89-9a2a-3b3aa6db347f]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-baf66ce7-08bc-4a89-9a2a-3b3aa6db347f]: exited"}}
+[debug] [2022-05-15T20:05:55.943Z] [worker-us-central1-api-baf66ce7-08bc-4a89-9a2a-3b3aa6db347f]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-baf66ce7-08bc-4a89-9a2a-3b3aa6db347f]: FINISHED"}}
+[debug] [2022-05-15T20:14:26.332Z] [worker-us-central1-api-7ec3b8b7-fc5c-4831-ba4a-a5a2a39dc368]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-7ec3b8b7-fc5c-4831-ba4a-a5a2a39dc368]: exited"}}
+[debug] [2022-05-15T20:14:26.334Z] [worker-us-central1-api-7ec3b8b7-fc5c-4831-ba4a-a5a2a39dc368]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-7ec3b8b7-fc5c-4831-ba4a-a5a2a39dc368]: FINISHED"}}
+[debug] [2022-05-15T20:14:38.631Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2022-05-15T20:14:38.631Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-05-15T20:14:38.631Z] Accepted request GET /fir-lab-1-81be8/us-central1/api/shoutouts --> us-central1-api
+[debug] [2022-05-15T20:14:38.632Z] [worker-pool] Cleaned up workers for us-central1-api: 2 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 2 --> 0"}}
+[debug] [2022-05-15T20:14:38.637Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-15T20:14:38.637Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-15T20:14:38.638Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-15T20:14:38.638Z] [worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: Assigning socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\13680 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\13680"}}
+[debug] [2022-05-15T20:14:38.638Z] [worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: BUSY"}}
+[debug] [2022-05-15T20:14:40.360Z] [runtime-status] [13680] Functions runtime initialized. {"cwd":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions","node_version":"16.13.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\",\"node_version\":\"16.13.0\"}"}}
+[debug] [2022-05-15T20:14:40.363Z] [runtime-status] [13680] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Disabled runtime features: undefined"}}
+[debug] [2022-05-15T20:14:40.366Z] [runtime-status] [13680] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:40.369Z] [runtime-status] [13680] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:40.369Z] [runtime-status] [13680] Found local functions config: C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions/.runtimeconfig.json {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Found local functions config: C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions/.runtimeconfig.json"}}
+[debug] [2022-05-15T20:14:40.370Z] [runtime-status] [13680] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-15T20:14:40.371Z] [runtime-status] [13680] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:40.425Z] [runtime-status] [13680] Checked functions.config() {"config":{"mongodb":{"uri":"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority"}}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Checked functions.config() {\"config\":{\"mongodb\":{\"uri\":\"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority\"}}}"}}
+[debug] [2022-05-15T20:14:40.425Z] [runtime-status] [13680] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T20:14:40.426Z] [runtime-status] [13680] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:40.428Z] [runtime-status] [13680] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:40.429Z] [runtime-status] [13680] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:40.429Z] [runtime-status] [13680] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T20:14:40.707Z] [runtime-status] [13680] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-15T20:14:40.707Z] [runtime-status] [13680] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Running api in signature http"}}
+[debug] [2022-05-15T20:14:40.710Z] [runtime-status] [13680] Attempting to listen to socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\13680 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\13680"}}
+[info] >  Listening on port: 3000 {"user":"Listening on port: 3000","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Listening on port: 3000"}}
+[debug] [2022-05-15T20:14:40.712Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-15T20:14:40.713Z] [functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts"}}
+[debug] [2022-05-15T20:14:40.721Z] [runtime-status] [13680] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Ephemeral server handling GET request"}}
+[debug] [2022-05-15T20:14:40.724Z] [runtime-status] [13680] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13680] Ephemeral server survived."}}
+[debug] [2022-05-15T20:14:41.595Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2022-05-15T20:14:41.596Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2022-05-15T20:14:41.596Z] Accepted request GET /fir-lab-1-81be8/us-central1/api/shoutouts --> us-central1-api
+[debug] [2022-05-15T20:14:41.611Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-15T20:14:41.612Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2022-05-15T20:14:41.612Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-15T20:14:41.612Z] [worker-us-central1-api-bfddcc30-2ce3-4cbf-b544-093ad29c0089]: Assigning socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\26372 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfddcc30-2ce3-4cbf-b544-093ad29c0089]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\26372"}}
+[debug] [2022-05-15T20:14:41.613Z] [worker-us-central1-api-bfddcc30-2ce3-4cbf-b544-093ad29c0089]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfddcc30-2ce3-4cbf-b544-093ad29c0089]: BUSY"}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-15T20:14:41.615Z] [worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: IDLE"}}
+[debug] [2022-05-15T20:14:41.615Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-05-15T20:14:42.953Z] [runtime-status] [26372] Functions runtime initialized. {"cwd":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions","node_version":"16.13.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\",\"node_version\":\"16.13.0\"}"}}
+[debug] [2022-05-15T20:14:42.955Z] [runtime-status] [26372] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Disabled runtime features: undefined"}}
+[debug] [2022-05-15T20:14:42.959Z] [runtime-status] [26372] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:42.961Z] [runtime-status] [26372] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:42.961Z] [runtime-status] [26372] Found local functions config: C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions/.runtimeconfig.json {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Found local functions config: C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions/.runtimeconfig.json"}}
+[debug] [2022-05-15T20:14:42.961Z] [runtime-status] [26372] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-15T20:14:42.962Z] [runtime-status] [26372] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:43.009Z] [runtime-status] [26372] Checked functions.config() {"config":{"mongodb":{"uri":"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority"}}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Checked functions.config() {\"config\":{\"mongodb\":{\"uri\":\"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority\"}}}"}}
+[debug] [2022-05-15T20:14:43.009Z] [runtime-status] [26372] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T20:14:43.010Z] [runtime-status] [26372] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:43.011Z] [runtime-status] [26372] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:43.012Z] [runtime-status] [26372] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T20:14:43.012Z] [runtime-status] [26372] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T20:14:43.252Z] [runtime-status] [26372] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-15T20:14:43.252Z] [runtime-status] [26372] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Running api in signature http"}}
+[debug] [2022-05-15T20:14:43.256Z] [runtime-status] [26372] Attempting to listen to socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\26372 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [26372] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\26372"}}
+[info] >  node:events:368 {"user":"node:events:368\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m node:events:368\r"}}
+[info] >        throw er; // Unhandled 'error' event {"user":"      throw er; // Unhandled 'error' event\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       throw er; // Unhandled 'error' event\r"}}
+[info] >        ^ {"user":"      ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: listen EADDRINUSE: address already in use :::3000 {"user":"Error: listen EADDRINUSE: address already in use :::3000\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Error: listen EADDRINUSE: address already in use :::3000\r"}}
+[info] >      at Server.setupListenHandle [as _listen2] (node:net:1334:16) {"user":"    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Server.setupListenHandle [as _listen2] (node:net:1334:16)\r"}}
+[info] >      at listenInCluster (node:net:1382:12) {"user":"    at listenInCluster (node:net:1382:12)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at listenInCluster (node:net:1382:12)\r"}}
+[info] >      at Server.listen (node:net:1469:7) {"user":"    at Server.listen (node:net:1469:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Server.listen (node:net:1469:7)\r"}}
+[info] >      at Function.listen (C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\node_modules\express\lib\application.js:635:24) {"user":"    at Function.listen (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\express\\lib\\application.js:635:24)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.listen (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\express\\lib\\application.js:635:24)\r"}}
+[info] >      at Object.<anonymous> (C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\index.js:45:5) {"user":"    at Object.<anonymous> (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\index.js:45:5)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Object.<anonymous> (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\index.js:45:5)\r"}}
+[info] >      at Module._compile (node:internal/modules/cjs/loader:1101:14) {"user":"    at Module._compile (node:internal/modules/cjs/loader:1101:14)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Module._compile (node:internal/modules/cjs/loader:1101:14)\r"}}
+[info] >      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10) {"user":"    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\r"}}
+[info] >      at Module.load (node:internal/modules/cjs/loader:981:32) {"user":"    at Module.load (node:internal/modules/cjs/loader:981:32)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Module.load (node:internal/modules/cjs/loader:981:32)\r"}}
+[info] >      at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"user":"    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.Module._load (node:internal/modules/cjs/loader:822:12)\r"}}
+[info] >      at Module.require (node:internal/modules/cjs/loader:1005:19) {"user":"    at Module.require (node:internal/modules/cjs/loader:1005:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Module.require (node:internal/modules/cjs/loader:1005:19)\r"}}
+[info] >  Emitted 'error' event on Server instance at: {"user":"Emitted 'error' event on Server instance at:\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Emitted 'error' event on Server instance at:\r"}}
+[info] >      at emitErrorNT (node:net:1361:8) {"user":"    at emitErrorNT (node:net:1361:8)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at emitErrorNT (node:net:1361:8)\r"}}
+[info] >      at processTicksAndRejections (node:internal/process/task_queues:83:21) { {"user":"    at processTicksAndRejections (node:internal/process/task_queues:83:21) {\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processTicksAndRejections (node:internal/process/task_queues:83:21) {\r"}}
+[info] >    code: 'EADDRINUSE', {"user":"  code: 'EADDRINUSE',\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   code: 'EADDRINUSE',\r"}}
+[info] >    errno: -4091, {"user":"  errno: -4091,\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   errno: -4091,\r"}}
+[info] >    syscall: 'listen', {"user":"  syscall: 'listen',\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   syscall: 'listen',\r"}}
+[info] >    address: '::', {"user":"  address: '::',\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   address: '::',\r"}}
+[info] >    port: 3000 {"user":"  port: 3000\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   port: 3000\r"}}
+[info] >  } {"user":"}\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m }\r"}}
+[debug] [2022-05-15T20:14:43.272Z] [worker-us-central1-api-bfddcc30-2ce3-4cbf-b544-093ad29c0089]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfddcc30-2ce3-4cbf-b544-093ad29c0089]: exited"}}
+[debug] [2022-05-15T20:14:43.272Z] [worker-us-central1-api-bfddcc30-2ce3-4cbf-b544-093ad29c0089]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bfddcc30-2ce3-4cbf-b544-093ad29c0089]: FINISHED"}}
+[debug] [2022-05-15T23:36:25.225Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\models\ShoutOutInterface.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\models\\ShoutOutInterface.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:25.236Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\models\ShoutOutInterface.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\models\\ShoutOutInterface.js changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:25.242Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:25.243Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:26.256Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-05-15T23:36:26.256Z] [worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: FINISHING"}}
+[debug] [2022-05-15T23:36:26.257Z] Validating nodejs source
+[debug] [2022-05-15T23:36:29.096Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "serve:dev": "npm run build && concurrently \"tsc --watch\" \"firebase emulators:start --only functions\"",
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon src/index.ts",
+    "test": "jest",
+    "test:dev": "jest --watchAll --verbose"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.21.1",
+    "mongodb": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "concurrently": "^7.1.0",
+    "firebase-functions-test": "^0.2.0",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+[debug] [2022-05-15T23:36:29.096Z] Building nodejs source
+[debug] [2022-05-15T23:36:29.096Z] Analyzing nodejs backend spec
+[debug] [2022-05-15T23:36:29.102Z] [worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: exited"}}
+[debug] [2022-05-15T23:36:29.102Z] [worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-44806a22-1b3f-489a-a5c6-4c20faca629a]: FINISHED"}}
+[debug] [2022-05-15T23:36:30.885Z] Received signal SIGINT (Ctrl-C) 1
+[info]  
+[info] i  emulators: Received SIGINT (Ctrl-C) for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGINT (Ctrl-C) signal again to stop right now. 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
+[warn] !  Emulator UI has exited upon receiving signal: SIGINT 
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  functions: Waiting for all functions to finish... {"metadata":{"emulator":{"name":"functions"},"message":"Waiting for all functions to finish..."}}
+[debug] [2022-05-15T23:36:44.283Z] ----------------------------------------------------------------------
+[debug] [2022-05-15T23:36:44.284Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\utrec\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2022-05-15T23:36:44.285Z] CLI Version:   10.8.0
+[debug] [2022-05-15T23:36:44.285Z] Platform:      win32
+[debug] [2022-05-15T23:36:44.285Z] Node Version:  v16.13.0
+[debug] [2022-05-15T23:36:44.286Z] Time:          Sun May 15 2022 19:36:44 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-05-15T23:36:44.286Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-15T23:36:44.375Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-15T23:36:44.376Z] > authorizing via signed-in user (utrechtc@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project fir-lab-1-81be8. This may result in unexpected behavior. 
+[debug] [2022-05-15T23:36:44.408Z] [hub] writing locator at C:\Users\utrec\AppData\Local\Temp\hub-fir-lab-1-81be8.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-05-15T23:36:44.431Z] defaultcredentials: writing to file C:\Users\utrec\AppData\Roaming\firebase\utrechtc_gmail_com_application_default_credentials.json
+[debug] [2022-05-15T23:36:44.432Z] Setting GAC to C:\Users\utrec\AppData\Roaming\firebase\utrechtc_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\utrec\\AppData\\Roaming\\firebase\\utrechtc_gmail_com_application_default_credentials.json"}}
+[debug] [2022-05-15T23:36:44.434Z] > refreshing access token with scopes: []
+[debug] [2022-05-15T23:36:44.435Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-15T23:36:44.596Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 15 May 2022 23:36:49 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-15T23:36:44.607Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig [none]
+[debug] [2022-05-15T23:36:44.818Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig 200
+[debug] [2022-05-15T23:36:44.819Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-lab-1-81be8/adminSdkConfig {"projectId":"fir-lab-1-81be8","storageBucket":"fir-lab-1-81be8.appspot.com"}
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4002 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4002 instead."}}
+[debug] [2022-05-15T23:36:44.852Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-05-15T23:36:44.852Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-05-15T23:36:44.852Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\utrec\\.cache\\firebase\\emulators\\ui-v1.6.6\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\utrec\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.6\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-05-15T23:36:44.975Z] Web / API server started at localhost:4002
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4002\n"}}
+[info] i  functions: Watching "C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\" for Cloud Functions..."}}
+[debug] [2022-05-15T23:36:45.133Z] Validating nodejs source
+[debug] [2022-05-15T23:36:47.835Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "serve:dev": "npm run build && concurrently \"tsc --watch\" \"firebase emulators:start --only functions\"",
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon src/index.ts",
+    "test": "jest",
+    "test:dev": "jest --watchAll --verbose"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.21.1",
+    "mongodb": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "concurrently": "^7.1.0",
+    "firebase-functions-test": "^0.2.0",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+[debug] [2022-05-15T23:36:47.835Z] Building nodejs source
+[debug] [2022-05-15T23:36:47.836Z] Analyzing nodejs backend spec
+[debug] [2022-05-15T23:36:48.053Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\db.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\db.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:48.054Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\db.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\db.js changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:48.055Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\models\ShoutOutInterface.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\models\\ShoutOutInterface.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:48.061Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\models\ShoutOutInterface.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\models\\ShoutOutInterface.js changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:48.064Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\routes\routes.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\routes\\routes.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:48.068Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\routes\routes.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\routes\\routes.js changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:48.070Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:48.076Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\backend\functions\src\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\backend\\functions\\src\\index.js changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:48.077Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\models\ShoutOutInterface.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\models\\ShoutOutInterface.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:48.083Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js.map changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js.map changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:48.083Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\models\ShoutOutInterface.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\models\\ShoutOutInterface.js changed, reloading triggers"}}
+[debug] [2022-05-15T23:36:48.087Z] File C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\frontend\src\services\ShoutOutService.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\frontend\\src\\services\\ShoutOutService.js changed, reloading triggers"}}
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/fir-lab-1-81be8/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/fir-lab-1-81be8/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4002                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4002/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-05-15T23:36:49.099Z] Validating nodejs source
+[debug] [2022-05-15T23:36:51.369Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "serve:dev": "npm run build && concurrently \"tsc --watch\" \"firebase emulators:start --only functions\"",
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon src/index.ts",
+    "test": "jest",
+    "test:dev": "jest --watchAll --verbose"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.21.1",
+    "mongodb": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "concurrently": "^7.1.0",
+    "firebase-functions-test": "^0.2.0",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+[debug] [2022-05-15T23:36:51.369Z] Building nodejs source
+[debug] [2022-05-15T23:36:51.369Z] Analyzing nodejs backend spec
+[debug] [2022-05-15T23:37:09.850Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-15T23:37:09.850Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-15T23:37:09.850Z] Accepted request GET /fir-lab-1-81be8/us-central1/api/shoutouts --> us-central1-api
+[debug] [2022-05-15T23:37:09.859Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-15T23:37:09.859Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-15T23:37:09.859Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-15T23:37:09.860Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: Assigning socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\16784 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\16784"}}
+[debug] [2022-05-15T23:37:09.860Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: BUSY"}}
+[debug] [2022-05-15T23:37:11.179Z] [runtime-status] [16784] Functions runtime initialized. {"cwd":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions","node_version":"16.13.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\",\"node_version\":\"16.13.0\"}"}}
+[debug] [2022-05-15T23:37:11.179Z] [runtime-status] [16784] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Disabled runtime features: undefined"}}
+[debug] [2022-05-15T23:37:11.182Z] [runtime-status] [16784] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:11.183Z] [runtime-status] [16784] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:11.184Z] [runtime-status] [16784] Found local functions config: C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions/.runtimeconfig.json {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Found local functions config: C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions/.runtimeconfig.json"}}
+[debug] [2022-05-15T23:37:11.184Z] [runtime-status] [16784] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-15T23:37:11.185Z] [runtime-status] [16784] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:11.225Z] [runtime-status] [16784] Checked functions.config() {"config":{"mongodb":{"uri":"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority"}}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Checked functions.config() {\"config\":{\"mongodb\":{\"uri\":\"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority\"}}}"}}
+[debug] [2022-05-15T23:37:11.225Z] [runtime-status] [16784] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T23:37:11.226Z] [runtime-status] [16784] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:11.227Z] [runtime-status] [16784] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:11.228Z] [runtime-status] [16784] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:11.228Z] [runtime-status] [16784] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T23:37:11.453Z] [runtime-status] [16784] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-15T23:37:11.454Z] [runtime-status] [16784] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Running api in signature http"}}
+[debug] [2022-05-15T23:37:11.457Z] [runtime-status] [16784] Attempting to listen to socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\16784 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\16784"}}
+[info] >  Listening on port: 3000 {"user":"Listening on port: 3000","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Listening on port: 3000"}}
+[debug] [2022-05-15T23:37:11.459Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-15T23:37:11.459Z] [functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts"}}
+[debug] [2022-05-15T23:37:11.464Z] [runtime-status] [16784] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Ephemeral server handling GET request"}}
+[debug] [2022-05-15T23:37:11.466Z] [runtime-status] [16784] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Ephemeral server survived."}}
+[debug] [2022-05-15T23:37:12.258Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2022-05-15T23:37:12.259Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-05-15T23:37:12.259Z] Accepted request GET /fir-lab-1-81be8/us-central1/api/shoutouts --> us-central1-api
+[debug] [2022-05-15T23:37:12.272Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-15T23:37:12.272Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2022-05-15T23:37:12.273Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-15T23:37:12.273Z] [worker-us-central1-api-0e8fe1bf-e922-4d2b-8fd3-8cf1756d8545]: Assigning socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\9760 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0e8fe1bf-e922-4d2b-8fd3-8cf1756d8545]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\9760"}}
+[debug] [2022-05-15T23:37:12.273Z] [worker-us-central1-api-0e8fe1bf-e922-4d2b-8fd3-8cf1756d8545]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0e8fe1bf-e922-4d2b-8fd3-8cf1756d8545]: BUSY"}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-15T23:37:12.275Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: IDLE"}}
+[debug] [2022-05-15T23:37:12.275Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-15T23:37:13.739Z] [runtime-status] [9760] Functions runtime initialized. {"cwd":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions","node_version":"16.13.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\",\"node_version\":\"16.13.0\"}"}}
+[debug] [2022-05-15T23:37:13.741Z] [runtime-status] [9760] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Disabled runtime features: undefined"}}
+[debug] [2022-05-15T23:37:13.743Z] [runtime-status] [9760] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:13.744Z] [runtime-status] [9760] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:13.745Z] [runtime-status] [9760] Found local functions config: C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions/.runtimeconfig.json {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Found local functions config: C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions/.runtimeconfig.json"}}
+[debug] [2022-05-15T23:37:13.745Z] [runtime-status] [9760] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-15T23:37:13.746Z] [runtime-status] [9760] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:13.787Z] [runtime-status] [9760] Checked functions.config() {"config":{"mongodb":{"uri":"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority"}}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Checked functions.config() {\"config\":{\"mongodb\":{\"uri\":\"mongodb+srv://admin:GmSU4NsM!Wu4-Nn@cluster0.8m2p1.mongodb.net/lab1?retryWrites=true&w=majority\"}}}"}}
+[debug] [2022-05-15T23:37:13.787Z] [runtime-status] [9760] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T23:37:13.788Z] [runtime-status] [9760] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:13.790Z] [runtime-status] [9760] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:13.791Z] [runtime-status] [9760] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-15T23:37:13.791Z] [runtime-status] [9760] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Users\\\\utrec\\\\Documents\\\\GrandCircus\\\\Demo\\\\Firebase\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-15T23:37:14.025Z] [runtime-status] [9760] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-15T23:37:14.025Z] [runtime-status] [9760] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Running api in signature http"}}
+[debug] [2022-05-15T23:37:14.029Z] [runtime-status] [9760] Attempting to listen to socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\9760 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9760] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\9760"}}
+[info] >  node:events:368 {"user":"node:events:368\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m node:events:368\r"}}
+[info] >        throw er; // Unhandled 'error' event {"user":"      throw er; // Unhandled 'error' event\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       throw er; // Unhandled 'error' event\r"}}
+[info] >        ^ {"user":"      ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m       ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: listen EADDRINUSE: address already in use :::3000 {"user":"Error: listen EADDRINUSE: address already in use :::3000\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Error: listen EADDRINUSE: address already in use :::3000\r"}}
+[info] >      at Server.setupListenHandle [as _listen2] (node:net:1334:16) {"user":"    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Server.setupListenHandle [as _listen2] (node:net:1334:16)\r"}}
+[info] >      at listenInCluster (node:net:1382:12) {"user":"    at listenInCluster (node:net:1382:12)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at listenInCluster (node:net:1382:12)\r"}}
+[info] >      at Server.listen (node:net:1469:7) {"user":"    at Server.listen (node:net:1469:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Server.listen (node:net:1469:7)\r"}}
+[info] >      at Function.listen (C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\node_modules\express\lib\application.js:635:24) {"user":"    at Function.listen (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\express\\lib\\application.js:635:24)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.listen (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\node_modules\\express\\lib\\application.js:635:24)\r"}}
+[info] >      at Object.<anonymous> (C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\lib\index.js:45:5) {"user":"    at Object.<anonymous> (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\index.js:45:5)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Object.<anonymous> (C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\lib\\index.js:45:5)\r"}}
+[info] >      at Module._compile (node:internal/modules/cjs/loader:1101:14) {"user":"    at Module._compile (node:internal/modules/cjs/loader:1101:14)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Module._compile (node:internal/modules/cjs/loader:1101:14)\r"}}
+[info] >      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10) {"user":"    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\r"}}
+[info] >      at Module.load (node:internal/modules/cjs/loader:981:32) {"user":"    at Module.load (node:internal/modules/cjs/loader:981:32)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Module.load (node:internal/modules/cjs/loader:981:32)\r"}}
+[info] >      at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"user":"    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.Module._load (node:internal/modules/cjs/loader:822:12)\r"}}
+[info] >      at Module.require (node:internal/modules/cjs/loader:1005:19) {"user":"    at Module.require (node:internal/modules/cjs/loader:1005:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Module.require (node:internal/modules/cjs/loader:1005:19)\r"}}
+[info] >  Emitted 'error' event on Server instance at: {"user":"Emitted 'error' event on Server instance at:\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Emitted 'error' event on Server instance at:\r"}}
+[info] >      at emitErrorNT (node:net:1361:8) {"user":"    at emitErrorNT (node:net:1361:8)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at emitErrorNT (node:net:1361:8)\r"}}
+[info] >      at processTicksAndRejections (node:internal/process/task_queues:83:21) { {"user":"    at processTicksAndRejections (node:internal/process/task_queues:83:21) {\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processTicksAndRejections (node:internal/process/task_queues:83:21) {\r"}}
+[info] >    code: 'EADDRINUSE', {"user":"  code: 'EADDRINUSE',\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   code: 'EADDRINUSE',\r"}}
+[info] >    errno: -4091, {"user":"  errno: -4091,\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   errno: -4091,\r"}}
+[info] >    syscall: 'listen', {"user":"  syscall: 'listen',\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   syscall: 'listen',\r"}}
+[info] >    address: '::', {"user":"  address: '::',\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   address: '::',\r"}}
+[info] >    port: 3000 {"user":"  port: 3000\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m   port: 3000\r"}}
+[info] >  } {"user":"}\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m }\r"}}
+[debug] [2022-05-15T23:37:14.047Z] [worker-us-central1-api-0e8fe1bf-e922-4d2b-8fd3-8cf1756d8545]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0e8fe1bf-e922-4d2b-8fd3-8cf1756d8545]: exited"}}
+[debug] [2022-05-15T23:37:14.047Z] [worker-us-central1-api-0e8fe1bf-e922-4d2b-8fd3-8cf1756d8545]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-0e8fe1bf-e922-4d2b-8fd3-8cf1756d8545]: FINISHED"}}
+[debug] [2022-05-16T13:55:39.847Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2022-05-16T13:55:39.850Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-05-16T13:55:39.851Z] Accepted request GET /fir-lab-1-81be8/us-central1/api/shoutouts --> us-central1-api
+[debug] [2022-05-16T13:55:39.851Z] [worker-pool] Cleaned up workers for us-central1-api: 2 --> 1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 2 --> 1"}}
+[debug] [2022-05-16T13:55:39.852Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-16T13:55:39.852Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: Assigning socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\16784 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\16784"}}
+[debug] [2022-05-16T13:55:39.852Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: BUSY"}}
+[debug] [2022-05-16T13:55:39.856Z] [runtime-status] [16784] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-16T13:55:39.859Z] [runtime-status] [16784] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Running api in signature http"}}
+[debug] [2022-05-16T13:55:39.863Z] [runtime-status] [16784] Attempting to listen to socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\16784 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\16784"}}
+[debug] [2022-05-16T13:55:39.867Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-16T13:55:39.867Z] [functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts"}}
+[debug] [2022-05-16T13:55:39.873Z] [runtime-status] [16784] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Ephemeral server handling GET request"}}
+[debug] [2022-05-16T13:55:39.875Z] [runtime-status] [16784] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-16T13:55:40.252Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: IDLE"}}
+[debug] [2022-05-16T13:55:40.252Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-16T13:55:45.737Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2022-05-16T13:55:45.737Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-05-16T13:55:45.738Z] Accepted request GET /fir-lab-1-81be8/us-central1/api/shoutouts --> us-central1-api
+[debug] [2022-05-16T13:55:45.738Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-16T13:55:45.738Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: Assigning socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\16784 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\16784"}}
+[debug] [2022-05-16T13:55:45.738Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: BUSY"}}
+[debug] [2022-05-16T13:55:45.738Z] [runtime-status] [16784] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-16T13:55:45.739Z] [runtime-status] [16784] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Running api in signature http"}}
+[debug] [2022-05-16T13:55:45.739Z] [runtime-status] [16784] Attempting to listen to socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\16784 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\16784"}}
+[debug] [2022-05-16T13:55:45.739Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-16T13:55:45.740Z] [functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts"}}
+[debug] [2022-05-16T13:55:45.742Z] [runtime-status] [16784] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Ephemeral server handling GET request"}}
+[debug] [2022-05-16T13:55:45.742Z] [runtime-status] [16784] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-16T13:55:45.794Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: IDLE"}}
+[debug] [2022-05-16T13:55:45.795Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-16T13:55:54.716Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2022-05-16T13:55:54.717Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-05-16T13:55:54.717Z] Accepted request GET /fir-lab-1-81be8/us-central1/api/shoutouts --> us-central1-api
+[debug] [2022-05-16T13:55:54.717Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-16T13:55:54.717Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: Assigning socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\16784 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\16784"}}
+[debug] [2022-05-16T13:55:54.717Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: BUSY"}}
+[debug] [2022-05-16T13:55:54.717Z] [runtime-status] [16784] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-16T13:55:54.718Z] [runtime-status] [16784] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Running api in signature http"}}
+[debug] [2022-05-16T13:55:54.718Z] [runtime-status] [16784] Attempting to listen to socketPath: \\?\pipe\C:\Users\utrec\Documents\GrandCircus\Demo\Firebase\backend\functions\16784 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\utrec\\Documents\\GrandCircus\\Demo\\Firebase\\backend\\functions\\16784"}}
+[debug] [2022-05-16T13:55:54.719Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-16T13:55:54.719Z] [functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/fir-lab-1-81be8/us-central1/api/shoutouts, mapping to path=/shoutouts"}}
+[debug] [2022-05-16T13:55:54.720Z] [runtime-status] [16784] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Ephemeral server handling GET request"}}
+[debug] [2022-05-16T13:55:54.720Z] [runtime-status] [16784] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [16784] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-16T13:55:54.769Z] [worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-52d529a7-903f-4328-837e-9b6aa951d14c]: IDLE"}}
+[debug] [2022-05-16T13:55:54.769Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-16T17:36:35.766Z] Received signal SIGINT (Ctrl-C) 1
+[info]  
+[info] i  emulators: Received SIGINT (Ctrl-C) for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGINT (Ctrl-C) signal again to stop right now. 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
+[warn] !  Emulator UI has exited upon receiving signal: SIGINT 
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  functions: Waiting for all functions to finish... {"metadata":{"emulator":{"name":"functions"},"message":"Waiting for all functions to finish..."}}
